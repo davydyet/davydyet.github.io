@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="triviaFunction.js" defer></script>
+</head>
+<body>
+    <header><h1>My Journey in IT and Fashion</h1></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="trivia.html">Fashion Quiz</a>
+    </nav>
+    <div class="container">
+        <aside class="left">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Which Fashion Aesthetic Suits You?</h2>
+            <form id="quiz-form">
+                <p>Pick your favorite color palette:</p>
+                <label><input class="radio1" type="radio" name="color" value="neutrals"> Neutrals</label><br>
+                <label><input class="radio1" type="radio" name="color" value="pastel"> Pastel</label><br>
+                <label><input class="radio1" type="radio" name="color" value="bold"> Bold Colors</label><br>
+
+                <p>Pick a fashion item:</p>
+                <label><input class="radio1" type="radio" name="item" value="cargo"> Cargo Pants</label><br>
+                <label><input class="radio1" type="radio" name="item" value="hoodie"> Oversized Hoodie</label><br>
+                <label><input class="radio1" type="radio" name="item" value="blazer"> Blazer</label><br>
+
+                <button type="button" onclick="calculateResult()">Get Result</button>
+            </form>
+            <p id="result"></p>
+        </main>
+        <aside class="right">
+            <h3>Contact Me</h3>
+            <form>
+                <input class="text1" type="text" placeholder="Your Name"><br>
+                <input class="text1" type="email" placeholder="Your Email"><br>
+                <textarea placeholder="Your Message"></textarea><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+        </aside>
+    </div>
+
+    <footer>
+        <a href="#"><p>Created 21 July 2025 | </a><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></p>
+    </footer>
+</body>
+</html>

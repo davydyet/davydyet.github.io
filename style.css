@@ -1,0 +1,115 @@
+/*layout design*/
+body { font-family: Arial, sans-serif; margin: 0; display: flex;
+       flex-direction: column;
+       min-height: 100vh; }
+
+header { background-color: #4B0082; 
+        color: white; text-align: center; 
+        padding: 20px; width: 100%; }
+
+nav { background-color: #ddd; 
+      padding: 10px; 
+      text-align: center; width: 100%;}
+
+footer { background-color: #333; 
+        color: white; text-align: center; 
+        padding: 10px; width: 100%; }
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+nav a { margin: 10px; 
+        text-decoration: none; 
+        color: black; font-weight: bold; }
+
+aside.left { background-color: #b3d9ff; 
+             width: 15%; 
+             padding: 10px; }
+
+aside.right { background-color: #ffe0f0; 
+              width: 15%; 
+              padding: 10px; }
+
+main { flex: 1;
+    background-color: #fff8dc;
+    padding: 20px; }
+
+
+table { width: 100%; 
+        border-collapse: collapse; }
+
+td, th { border: 1px solid black; 
+         padding: 8px; text-align: center; }
+
+/*button design*/
+#quiz-form label {
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.radio1 {
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+#quiz-form input[type="radio"] {
+    accent-color: #4B0082;
+}
+
+#quiz-form p {
+    margin-top: 20px;
+}
+
+.text1,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4B0082;
+    background-color: #f2f2ff;
+}
+
+button {
+    margin: 10px 5px;
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #360061;
+}
+
+/*link design*/
+aside.left a:link, 
+aside.left a:visited
+nav a:link, nav a:visited {color: black; 
+                      text-decoration: none; 
+                      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);}
+
+aside.left a:hover, 
+aside.left a:active,
+nav a:hover, nav a:active {color: #4B0082; text-decoration: none;}
+
+footer a:link, a:visited { color: white; 
+                           text-decoration: none; 
+                           text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);}
+
+footer a:hover, a:active{color: #B12020; text-decoration: none;}
+
+
